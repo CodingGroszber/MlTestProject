@@ -1,0 +1,19 @@
+name: mltest
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - jupyter
+  - pip:
+    - torch
+    - mlflow
+    - hydra-core
+    - black
+    - isort
